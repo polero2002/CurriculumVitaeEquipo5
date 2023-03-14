@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+#header {
+    color: white;
+    text-align: center;
+    background-color: #0078d4;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+#titulo1 {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding-left: 510px;
+}
+
+body {
+
+    background-color: #282828;
+
+}
+
+
+#contacto {
+    color: white;
+    position: static;
+    width: 356px;
+    height: 900px;
+    background-color: #9c9c9c;
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    border-radius: 15px;
+    margin-top: 10px;
+
+
+}
+
+#formacion {
+    color: white;
+    list-style: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+#fotoOM {
+    position: static;
+    float: left;
+    margin-right: 20px;
+
+
+}
+
+#imgOM {
+    height: 364px;
+    width: 351px;
+    border-radius: 210px;
+    border-style: groove;
+    border-color: #0078d4;
+}
+
+
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+}
+
+#mp {
+    background-color: #9c9c9c;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 149px;
+}
+
+#mapita {
+    position: relative;
+    left: 25px;
+    border-radius: 15px;
+}
+
+#videoOS {
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 110px;
+}
+
+#Contacto {
+    margin-top: 70px;
+    background-color: #0078d4;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#pie {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    padding-bottom: 60px;
+    background: #111;
+    z-index: 2000;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+/*social style*/
+
+.social{
+    float: right;
+    padding-bottom: 300px;
+}
+
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 9px;
+    text-decoration: none;
+    transition: 0.8s ease;
+    border-radius: 15px;
+    
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-whatsapp {
+    background: #097F29;
+}
+
+.social ul li .icon-mail4 {
+    background: #d95232;
+
+}
+
+.social ul li .icon-compass {
+    background: #94A20A;
+}
+
+.social ul li a:hover {
+    padding: 13px 13px;
+    background: black;
+}

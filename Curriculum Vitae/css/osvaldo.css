@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+
+#header {
+    color: white;
+    text-align: center;
+    background-color: #00897b;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+#titulo1 {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding-left: 510px;
+}
+
+body {
+
+    background-color: #282828;
+
+}
+
+
+#contacto {
+    color: white;
+    position: static;
+    width: 370px;
+    height: 900px;
+    background-color: #9c9c9c;
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+
+#formacion {
+    color: white;
+    list-style: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+#fotoOS {
+    position: static;
+    float: left;
+    margin-right: 20px;
+
+
+}
+
+
+
+#imgOS {
+    border-radius: 210px;
+    border-style: groove;
+    border-color: #00897b;
+}
+
+
+
+p {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+}
+
+#mp {
+    background-color: #9c9c9c;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 140px;
+}
+
+#mapita {
+    position: relative;
+    left: 25px;
+    border-radius: 15px;
+}
+
+#videoOS {
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 110px;
+}
+
+#pie {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    padding-bottom: 60px;
+    background: #111;
+    z-index: 2000;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*social style*/
+
+.social {
+    float: right;
+    padding-bottom: 300px;
+}
+
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 9px;
+    text-decoration: none;
+    transition: 0.8s ease;
+    border-radius: 15px;
+
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-whatsapp {
+    background: #097F29;
+}
+
+.social ul li .icon-mail4 {
+    background: #d95232;
+
+}
+
+.social ul li .icon-compass {
+    background: #94A20A;
+}
+
+.social ul li a:hover {
+    padding: 13px 13px;
+    background: black;
+}
